@@ -11,7 +11,6 @@ def binarize_func(x, pos_thres, neg_thres):
 
     return
 
-
 def convert_train_or_heldout(filepath, aspect):
     data = []
     with open(filepath, encoding='utf8') as f:

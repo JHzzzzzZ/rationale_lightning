@@ -1,4 +1,4 @@
-devices="0,";
+devices="1,";
 
 dataset=hotel;
 aspect=0;
@@ -27,7 +27,7 @@ batch_size=256;
 max_len=512;
 margin=0.2;
 margin_weight=1;
-num_samples=4;
+num_samples=1;
 ranking=null;
 gate=straight;
 

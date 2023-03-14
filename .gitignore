@@ -4,3 +4,4 @@
 !src
 !.gitignore
 !*.md
+!requirements.txt
