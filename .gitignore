@@ -1,0 +1,6 @@
+*
+!*.py
+!*.sh
+!/src/*.py
+!.gitignore
+!*.md

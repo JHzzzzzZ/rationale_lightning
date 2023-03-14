@@ -50,5 +50,6 @@ if __name__ == '__main__':
 
     trainer = Trainer(accelerator=args['accelerator'], devices=args['devices'], )
 
-    # trainer.validate(model, datamodule=dataset)
+
+    trainer.validate(model, datamodule=dataset)
     trainer.test(model, datamodule=dataset)

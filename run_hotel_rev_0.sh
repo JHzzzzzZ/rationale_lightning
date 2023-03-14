@@ -25,10 +25,10 @@ epochs=100;
 total_batch_size=256;
 batch_size=256;
 max_len=512;
-margin=0.3;
+margin=0.2;
 margin_weight=1;
-num_samples=1;
-ranking=margin;
+num_samples=4;
+ranking=null;
 gate=straight;
 
 output_dir=./output/${gate}_${dataset}_${aspect}-rev-$margin-$ranking-$num_samples;

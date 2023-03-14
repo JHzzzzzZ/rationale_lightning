@@ -3,7 +3,6 @@ from tqdm import tqdm
 import json
 from argparse import ArgumentParser
 
-
 def binarize_func(x, pos_thres, neg_thres):
     if float(x) >= pos_thres:
         return 1
@@ -54,7 +53,6 @@ def convert_and_save_test(path, aspect):
 
     return data
 
-
 def get_args():
     parser = ArgumentParser()
 
@@ -66,6 +64,7 @@ def get_args():
 
 if __name__ == '__main__':
     args = get_args()
+
     train_path = os.path.join(args.path, 'reviews.aspect%d.train.txt' % (args.aspect))
     eval_path = os.path.join(args.path, 'reviews.aspect%d.heldout.txt' % (args.aspect))
 
