@@ -1,0 +1,8 @@
+*
+!*.py
+!*.sh
+!src
+!.gitignore
+!*.md
+!requirements.txt
+!scripts
