@@ -1,5 +1,5 @@
 *
-!*.py
+!main.py
 !*.sh
 !src
 !.gitignore

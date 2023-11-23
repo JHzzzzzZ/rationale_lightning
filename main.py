@@ -162,7 +162,7 @@ def get_args():
     parser = get_model_cls(temper_args.model).add_argparse_args(parser)
     parser = get_dataset_cls(temper_args.dataset).add_argparse_args(parser)
 
-    parser.add_argument('--embedding_path', type=str, default='../pretrained/glove.6B.50d.txt',
+    parser.add_argument('--embedding_path', type=str, default='./pretrained/glove.6B.50d.txt',
                         help='path to pretrained word embedding.')
     parser.add_argument('--embed_size', type=int, default=50,
                         help='pretrained word embedding dim.')
