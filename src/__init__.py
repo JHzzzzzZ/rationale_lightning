@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-# TODO: BERT forward with token reduction and rationale extraction. -> sparisity & continuity
-# TODO: 后期关闭auxiliary，因为encoder已经够好了
-# TODO: 添加language model的auxilary task
-# TODO：对比学习 & ranking combo，自己和自己的rationale是正例，自己和其他是负例
 
 UNK_TOKEN = "[UNK]"
 PAD_TOKEN = "[PAD]"
